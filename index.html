@@ -16,11 +16,11 @@
     <header>
         <h1><img src="./imagenes/logo.svg" alt="logo"></h1>  
         <div class="categoriasCabecera">
-            <a class="categoriastop" href="./Pages/Pricing.html">Pricing</a>
-            <a class="categoriastop" href="./Pages/Product.html">Product</a>
-            <a class="categoriastop" href="./Pages/Aboutus.html">About Us</a>
-            <a class="categoriastop" href="./Pages/Careers.html">Careers</a>
-            <a class="categoriastop" href="./Pages/Community.html">Community</a>
+            <span class="categoriastop">Pricing</span>
+            <span class="categoriastop">Product</span>
+            <span class="categoriastop">About Us</span>
+            <span class="categoriastop">Careers</span>
+            <span class="categoriastop">Community</span>
         </div>
 
         <div class="boton-1"><button class="boton1" type="submit" >Get Started</button> <!--Boton de loggin-->
@@ -87,48 +87,50 @@
         
         </section><!--Fin caja padre No 3-->
 
-        <section><!--zona comentarios clientes-->
-            <h3>What they've said</h3>
-            <div>
-                <img src="./imagenes/avatar-anisha.png" alt="fotoAnisha">
-                <h4>Ali Bravo</h4>
-                <p>“Manage has supercharged our team's workflow. The ability to maintain visibility 
-                    on larger milestones at all times keeps everyone motivated.”
-                </p>
+        <section class="cajaPadre-4"><!--zona comentarios clientes-->
+            <h3 class="titulo-comentarios">What they've said</h3>
+            <div class="caja-comentarios">
+                <div class="comentarios">
+                    <img class="fotoCliente" src="./imagenes/avatar-anisha.png" alt="fotoAnisha">
+                    <h4 class="nombresUsuarios">Ali Bravo</h4>
+                    <p class="testimonio">“Manage has supercharged our team's workflow. The ability to maintain visibility 
+                        on larger milestones at all times keeps everyone motivated.”
+                    </p>
+                </div>
+    
+                <div class="comentarios">
+                    <img class="fotoCliente" src="./imagenes/avatar-ali.png" alt="fotoAli">
+                    <h4 class="nombresUsuarios">Ali Bravo</h4>
+                    <p class="testimonio">“We have been able to cancel so many other subscriptions since using manage. 
+                        There ir no more cross-channel confusion and everyone is much more focused.”
+                    </p>
+                </div>
+    
+                <div class="comentarios">
+                    <img class="fotoCliente" src="./imagenes/avatar-richard.png" alt="fotoRichard">
+                    <h4 class="nombresUsuarios">Ali Bravo</h4>
+                    <p class="testimonio">“Manage allows us to provide structure and process. It keeps us organized and focused. 
+                        I can't stop recommending them to everyone i talk to!”
+                    </p>
+                </div>
             </div>
-
-            <div>
-                <img src="./imagenes/avatar-ali.png" alt="fotoAli">
-                <h4>Ali Bravo</h4>
-                <p>“We have been able to cancel so many other subscriptions since using manage. 
-                    There ir no more cross-channel confusion and everyone is much more focused.”
-                </p>
-            </div>
-
-            <div>
-                <img src="./imagenes/avatar-richard.png" alt="fotoRichard">
-                <h4>Ali Bravo</h4>
-                <p>“Manage allows us to provide structure and process. It keeps us organized and focused. 
-                    I can't stop recommending them to everyone i talk to!”
-                </p>
-            </div>
-
-            <div>Get Started</div>
+            
+            <div class="boton-3"><button class="boton3" type="submit" >Get Started</button></div>
         </section><!--Fin zona comentarios clientes-->
     </main>
 
     <footer>
-        <section><!--label morado-->
-            <div>Simplify hoy your team
+        <section class="labelPrincipalfooter"><!--label morado-->
+            <div class="labelfooter">Simplify hoy your team
                 words today.
             </div>
-            <div>Get Started</div>
+            <div class="boton-4"><button class="boton4" type="submit" >Get Started</button></div>
         </section>
 
-        <section><!--pie del pagina-->
-            <div>
-                <div><img src="./imagenes/logo.svg" alt="logo"></div>
-                <div>
+        <section class="categoriasPiepag"><!--pie del pagina-->
+            <div class="iconos">
+                <div><img src="./imagenes/Logo2.png" alt="logo"></div>
+                <div class="iconos-redes-sociales">
                     <img src="./imagenes/icon-facebook.svg" alt="logoFacebook">
                     <img src="./imagenes/icon-youtube.svg" alt="logoYoutube">
                     <img src="./imagenes/icon-twitter.svg" alt="logoTwitter">
@@ -137,31 +139,33 @@
                 </div>
             </div>
 
-            <div><!--menu contenido No 1-->
-                <span>Home</span>
-                <span>Pricing</span>
-                <span>Products</span>
-                <span>About Us</span>
+            <div class="categoria-pp1"><!--menu contenido No 1-->
+                <span class="descripcion-categoria">Home</span>
+                <span class="descripcion-categoria">Pricing</span>
+                <span class="descripcion-categoria">Products</span>
+                <span class="descripcion-categoria">About Us</span>
             </div>
 
-            <div><!--menu contenido No 2-->
-                <span>Careers</span>
-                <span>Community</span>
-                <span>Privacity Policy</span>
+            <div class="categoria-pp1"><!--menu contenido No 2-->
+                <span class="descripcion-categoria">Careers</span>
+                <span class="descripcion-categoria">Community</span>
+                <span class="descripcion-categoria">Privacity Policy</span>
             </div>
 
-            <div>
+            <div class="labelRegistro">
                 <form action="registro">
                     <label for=""></label>
                     <label for="correo"></label>
-                    <input type="email" name="correo" id="correo" placeholder="Update in your inbox...">
+                    <input class="ingresoCorreo" type="email" name="correo" id="correo" placeholder="Update in your inbox...">
                 </form>
-                <button type="submit">Go</button>
+                <div class="boton-5"><button class="boton5" type="submit">Go</button></div>
+
+                <div class="derechosReservados">Copyright 2020. All Rights Reserved</div>
             </div>
             
-            <div>Copyright 2020. All Rights Reserved</div>
+            
         </section>
-
+        
     </footer>
 </body>
 </html>
