@@ -2,7 +2,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+/*estilos cabecera*/
 header{
     background-color:#ffff;
     width: 100%;
@@ -62,7 +62,7 @@ h1{
     background-color: #ffff;
     color: #8B48BF;
 }
-
+/*fin estilos cabecera*/
 .cajaPadre{
     display: flex;
 }
@@ -161,3 +161,207 @@ h2{
     top: 30px;
     left: 5px;
 }
+/*zona comentarios clientes*/
+.cajaPadre-4{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-comentarios{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 39.2143px;
+    color: #242E53;
+    text-align: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.caja-comentarios{
+    display: flex;
+    padding: 70px;
+}
+
+.comentarios{
+    padding: 10px;
+    
+}
+
+.nombresUsuarios{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    color: #3F4868;
+    text-align: center;
+    padding: 15px;
+}
+
+.testimonio{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    color: #B9B9C1;
+    text-align: center;
+    padding: 10px;
+}
+
+.fotoCliente{
+    width: 20%;
+    position: relative;
+    left: 40%;
+}
+
+.boton3{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 13px;
+    color: #ffff;
+    background-color: #8B48BF;
+    border: #8B48BF;
+    border-radius: 50px;
+    height: 37px;
+    width: 125px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.boton3:hover{
+    background-color: #ffff;
+    color: #8B48BF;
+}
+
+.boton-3{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+/*fin zona comentarios clientes*/
+
+.labelPrincipalfooter{
+    height: 168px;
+    width: 100%;
+    background-color: #8B48BF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.labelfooter{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 40px;
+    color: #ffff;
+    padding: 33px 52px 45px 80px;
+    width: 587px;
+}
+
+.boton4{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 13px;
+    color:  #8B48BF;
+    background-color: #ffff;
+    border: #ffff;
+    border-radius: 50px;
+    height: 37px;
+    width: 125px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.boton4:hover{
+    background-color:#8B48BF ;
+    border: #ffff;
+    color: #ffff;
+}
+
+.boton-4{
+    padding: 65px 120px 40px 40px;;
+    
+}
+
+/*zona categorias pie de pagina*/
+
+.categoriasPiepag{
+    background-color: #1E1E26;
+    height: 247px;
+    width: 100%;
+    display: flex;
+}
+
+.iconos{
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.iconos-redes-sociales{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+
+.categoria-pp1{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.descripcion-categoria{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    color: #ffff;
+    line-height: 23px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.descripcion-categoria:hover{
+    color: #3F4868;
+    opacity: 60%;
+}
+
+.labelRegistro{
+    display: flex;
+    justify-content: center;
+    padding: 70px 10px 58px 123px;
+}
+
+.ingresoCorreo{
+    background-color: #ffff;
+    padding: 10px;
+    width: 201px;
+    height: 44px;
+    border-radius: 50px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 12px;
+}
+
+.boton-5{
+    padding-left: 5px;
+}
+
+.boton5{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 13px;
+    color:  #ffff;
+    background-color: #8B48BF;
+    border: #8B48BF;
+    border-radius: 50px;
+    height: 42px;
+    width: 65px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.boton5:hover{
+    background-color: #ffff;
+    color: #8B48BF;
+}
+
+.derechosReservados{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 12px;
+    color: #8C8C94;
+    position: relative;
+    top: 80px;
+    right: 252px;
+    height: 19px;
+}
+
