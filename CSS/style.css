@@ -518,10 +518,68 @@ h2{
         order: -1;
         text-align: center;
         width: 100%;
-        margin-left: 52%;
+        margin-left: 57%;
+    }
+}
+
+/*animaciones*/
+.titulo-comentarios{
+    animation-name: movimiento;
+    animation-duration: 10s;
+    animation-iteration-count: inherit;
+}
+
+@keyframes movimiento {
+    from{
+        margin-left: 100%;
+        width: 100%;
     }
 
+    to{
+        margin-left: 0%;
+        width: 50%;
+    }
+    
+}
 
+h2{
+    animation-direction: alternate;
+    animation-duration: 5s;
+    animation-iteration-count: inherit;
+    animation-name: titulo;
+}
 
+@keyframes titulo {
+    0%{
+        opacity: 5%;
+    }
+    25%{
+        opacity: 50%; transform: translateX(-20px);
+
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+.tituloC-3{
+    animation-direction: alternate;
+    animation-duration: 5s;
+    animation-iteration-count: inherit;
+    animation-name: titulo-3;
+
+}
+
+@keyframes titulo-3 {
+    0%{
+        opacity: 5%;
+    }
+    25%{
+        opacity: 50%; transform: translatey(-20px);
+
+    }
+    100%{
+        opacity: 100%;
+    }
     
 }
